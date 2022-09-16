@@ -1,0 +1,53 @@
+/* min-width:500px */
+@media screen and (min-width:500px) {
+
+    .nosotros{
+        h1{
+            font-size: 2.5rem;
+        }
+        p{
+            font-size: 2rem;
+        }
+    }
+
+    .descripcionDetalle1, .descripcionDetalle2, .descripcionDetalle3{
+        p{
+            font-size: 1rem;
+        }
+    }
+
+    .principalProductos {
+        padding-right: 1rem;
+        padding-left: 1rem;
+        padding-top: 2rem;
+        .tituloProducto {
+            h1{
+                font-size: 2rem;  
+            }
+        }
+    }
+
+    .imagenDetalle {
+        img {
+            padding-bottom: 1rem;
+            padding-right: 1rem;
+        }
+    }
+
+    .detalleProdServ{
+        strong{
+            font-size: 1.3rem;
+        }
+    }    
+
+    .principalServicios {
+        padding-right: 1rem;
+        padding-left: 1rem;
+        padding-top: 2rem;
+        .tituloServicio {
+            h1{
+                font-size: 2rem;  
+            }
+        }
+    }
+}

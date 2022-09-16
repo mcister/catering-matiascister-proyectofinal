@@ -1,0 +1,25 @@
+/* min-width:250x */
+@media screen and (min-width:250px) {
+
+    .nosotros{
+        p{
+            font-size: 0.8rem;
+        }
+    }
+    .descripcionDetalle1, .descripcionDetalle2, .descripcionDetalle3{
+        p{
+            font-size: 0.6rem;
+        }
+    }
+    .detalleProdServ{
+        strong{
+            font-size: 0.9rem;
+        }
+        p{
+            display: none;   
+        }
+    }    
+    .form-label, .btn{
+        font-size: 1.2rem;
+    }
+}

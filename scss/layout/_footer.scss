@@ -1,0 +1,24 @@
+/************************************************************************************************************/
+/*estilos de footer*/
+/************************************************************************************************************/
+.pieDePagina {
+    display: column;
+    flex-wrap: nowrap;
+    background-color: $color-bg-pie-de-pagina;
+    color: $color-fuente-pie-de-pagina;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    @include medidas(100%, 100%);
+    h2 {
+        font-size: 0.8rem;
+    }
+    .redesSociales {
+        display: inline-block;
+        padding-left: 0.2rem;
+        padding-right: 0.2rem;
+        img {
+            @include medidas(10%, 10%);
+        }
+    }
+}

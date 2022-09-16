@@ -1,0 +1,29 @@
+/* min-width:355px */
+@media screen and (min-width:355px) {
+
+    .nosotros{
+        p{
+            font-size: 1.2rem;
+        }
+    }
+
+    .detalleProdServ{
+        strong{
+            font-size: 1.2rem;
+        }
+    }    
+
+    .pieDePagina {
+        h2 {
+            font-size: 0.8rem;
+        }
+        .redesSociales {
+            img {
+                @include medidas(10%, 10%);
+            }
+        }
+    }      
+    .form-label, .btn{
+        font-size: 1.7rem;
+    }
+}

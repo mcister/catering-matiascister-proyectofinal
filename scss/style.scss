@@ -1,0 +1,25 @@
+@import "utilities/listas";
+@import "utilities/variables";
+@import "utilities/mixins";
+
+@import "base/reset";
+
+@import "components/imagenDetalle";
+@import "components/detalleProdServ";
+
+@import "layout/header";
+@import "layout/footer";
+
+@import "views/index";
+@import "views/servicios";
+@import "views/productos";
+@import "views/imagenes";
+@import "views/contactos";
+
+@import "mediaqueries/min-width-250px";
+@import "mediaqueries/min-width-355px";
+@import "mediaqueries/min-width-500px";
+@import "mediaqueries/min-width-600px";
+@import "mediaqueries/min-width-815px";
+@import "mediaqueries/min-width-1000px";
+@import "mediaqueries/min-width-1200px";

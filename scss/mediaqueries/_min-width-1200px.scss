@@ -1,0 +1,62 @@
+/* min-width:1200px */
+
+@media screen and (min-width:1200px) {
+
+    .nav-item {
+        padding:1rem;
+        .nav-link {
+            font-size: 2.5rem;
+        }
+    }
+
+    .nosotros{
+        h1{
+            font-size: 3.5rem;
+        }
+    
+        p{
+            font-size: 2.8rem;
+            line-height: 3rem;
+        }
+    }
+
+    .descripcionDetalle, .descripcionDetalle2, .descripcionDetalle3 {
+        h3 {
+            font-size: 2.5rem;
+        }
+        p {
+            font-size: 1.8rem;
+        }
+    }
+
+    .principalProductos {
+        .tituloProducto {
+            h1{
+                font-size: 2.5rem;  
+            }
+        }
+    }
+    .detalleProdServ{
+        strong{
+            font-size: 2.5rem;
+        }
+        p{
+            font-size: 2.4rem;
+        }
+    }      
+    .principalServicios {
+        .tituloServicio {
+            h1{
+                font-size: 2.5rem;  
+            }
+        }
+    } 
+    .pieDePagina {
+        h2 {
+            font-size: 1.8rem;
+        }
+    }    
+    .form-label, .btn{
+        font-size: 1.7rem;
+    }
+}

@@ -1,0 +1,81 @@
+/************************************************************************************************************/
+/*ESTILOS PARTICULARES DE SERVICIOS*/
+/*estilos de principal*/
+/************************************************************************************************************/
+.principalServicios {
+    background-color: $color-bg-main;
+    display: grid;
+    @include medidas(100%, 100%);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 5% 19% 19% 19% 19% 19%;
+    grid-template-areas: "tituloServicio tituloServicio"
+        "imagenServicio1 detalleServicio1"
+        "imagenServicio2 detalleServicio2"
+        "imagenServicio3 detalleServicio3"
+        "imagenServicio4 detalleServicio4"
+        "imagenServicio5 detalleServicio5";
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+    .tituloServicio {
+        grid-area: tituloServicio;
+        h1{
+            text-align: left;
+            font-size: 1.2rem;  
+            padding-bottom: 1rem;
+        }
+    }
+    .imagenServicio1 {
+        @extend .imagenDetalle;
+        grid-area: imagenServicio1;
+    }
+    
+    .imagenServicio2 {
+        @extend .imagenDetalle;
+        grid-area: imagenServicio2;
+    }
+    
+    .imagenServicio3 {
+        @extend .imagenDetalle;
+        grid-area: imagenServicio3;
+    }
+    
+    .imagenServicio4 {
+        @extend .imagenDetalle;
+        grid-area: imagenServicio4;
+    }
+    
+    .imagenServicio5 {
+        @extend .imagenDetalle;
+        grid-area: imagenServicio5;
+    }
+    
+    .detalleServicio1 {
+        @extend .detalleProdServ;
+        grid-area: detalleServicio1;
+    }
+    
+    .detalleServicio2 {
+        @extend .detalleProdServ;
+        grid-area: detalleServicio2;
+    }
+    
+    .detalleServicio3 {
+        @extend .detalleProdServ;
+        grid-area: detalleServicio3;
+    }
+    
+    .detalleServicio4 {
+        @extend .detalleProdServ;
+        grid-area: detalleServicio4;
+    }
+    
+    .detalleServicio5 {
+        @extend .detalleProdServ;
+        grid-area: detalleServicio5;
+    }
+}

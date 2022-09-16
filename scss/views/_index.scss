@@ -1,0 +1,117 @@
+/************************************************************************************************************/
+/*ESTILOS PARTICULARES DE INDEX*/
+/*estilos de principal*/
+/************************************************************************************************************/
+.principalIndex {
+    background-color: $color-bg-main;
+    display: grid;
+    @include medidas(100%, 100%);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 35% 15% 5% 15% 15% 15%;
+    grid-template-areas: "nosotros nosotros"
+        "imagenPrincipal imagenPrincipal"
+        "quienesSomos quienesSomos"
+        "detalle1 descripcionDetalle1"
+        "detalle2 descripcionDetalle2"
+        "detalle3 descripcionDetalle3";
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+.nosotros {
+    display: flex;
+    grid-area: nosotros;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-image: url(../img/fondo-madera.jpg);
+    color: $color-fuente-nosotros;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    @include medidas(100%, 100%);
+    h1 {
+        padding-top: 2rem;
+    }
+    p {
+        font-size: 1.4rem;
+        padding: 1rem;
+        line-height: 1.5rem;
+    }
+}
+
+.imagenPrincipal {
+    grid-area: imagenPrincipal;
+    @include medidas(100%, 100%);
+    img{
+        @include medidas(100%, 100%);
+    }
+}
+
+.quienesSomos {
+    grid-area: quienesSomos;
+    display: flex;
+    background-image: url(../img/fondo-madera.jpg);
+    color: $color-fuente-titulo-quienes-somos;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.2rem;
+    @include medidas(100%, 100%);
+    justify-content: center;
+    align-items: center;
+}
+
+.detalle {
+    padding: 0.5rem;
+    @include medidas(100%, 100%);
+    img {
+        @include medidas(100%, 100%);
+    }
+}
+
+.descripcionDetalle {
+    color: $color-fuente-detalle-quienes-somos;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    @include medidas(100%, 100%);
+    h3{
+        font-size: 1.1rem;
+    }
+    p {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+}
+
+.detalle1 {
+    @extend .detalle;
+    grid-area: detalle1;
+}
+
+.descripcionDetalle1 {
+    @extend .descripcionDetalle;
+    grid-area: descripcionDetalle1;
+}
+
+.detalle2 {
+    @extend .detalle;
+    grid-area: detalle2;
+}
+.descripcionDetalle2 {
+    @extend .descripcionDetalle;
+    grid-area: descripcionDetalle2;
+}
+
+.detalle3 {
+    @extend .detalle;
+    grid-area: detalle3;
+}
+
+.descripcionDetalle3 {
+    @extend .descripcionDetalle;
+    grid-area: descripcionDetalle3;
+}

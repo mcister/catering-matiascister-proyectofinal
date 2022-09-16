@@ -1,0 +1,24 @@
+/* min-width:900px */
+@media screen and (min-width:900px) {
+   
+    .principalContacto{
+        height: 75rem;
+    }
+
+    .principalIndex {
+        grid-template-rows: 20% 15% 5% 20% 20% 20%;
+    }
+
+    .nosotros{
+        h1{
+            font-size: 3rem;
+            padding-top: 4rem;
+            padding-bottom: 1rem;
+        }
+        p{
+            font-size: 2.5rem;
+            line-height: 4rem;
+            padding-bottom: 2rem;
+        }
+    }
+}

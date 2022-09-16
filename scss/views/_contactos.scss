@@ -1,0 +1,17 @@
+.principalContacto{
+    background-color: $color-bg-main;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.btn {
+    margin: 0.5rem;
+    background-color:$color-boton;
+    color:$color-texto-boton;
+    &:hover{
+    background-color: $color-sobre-boton;
+    transform: scale(1.1);
+    box-shadow: 1px 1px 5px $color-sobre-boton-sombra;
+    border-radius: 30px;
+    }
+}
